@@ -1,0 +1,100 @@
+
+*{margin: 30 ; padding: 30;}
+
+body {
+margin: 0 auto;
+width: 48em;
+
+background: #EDF3FA
+}
+
+
+
+#left_bar > a { text-shadow: 0.3125em 0.3125em 0.3125em black ;
+color: white;  font-style: normal; padding: 0em 1.875em; text-decoration: none;}
+
+#left_bar{
+
+  background:#1D328F;
+  position:fixed;
+  left:0; top: 0; bottom: 0;
+  width: 15%;
+
+}
+
+li >a:first-child {color: white; font-size:1em;text-decoration: none;}
+.menu{
+margin: 0.625em 0.625em;
+padding: 1.875em 1.25em;
+color: white;
+list-style: none;
+
+}
+
+
+
+
+.box1{
+
+
+  font-family: arial;
+  margin: 3.125em 3.125em;
+  padding:0.625em 4.375em;
+  width: 43.75em;
+  height: 62.5em;
+  background-color: white;
+  color: black;
+
+}
+.box1 > h1 ,h2 {text-shadow: 0.625em 0.625em 0.625em black;}
+.box1 > table {width: 100%;}
+.box1 > table.txc-table{width: 100%; table-layout:auto;
+}
+.box1 > table.thead-tr{width: 100%;}
+
+
+@media screen and (max- width:  48em);{
+  body{ width: auto;}
+  #left_bar{width: auto; float: none;}
+  .box1{width: auto;}
+}
+
+
+
+
+
+#box1{overflow: hidden;}
+#bbong_p{float: right; width: 25em; height:8.75em; padding: 0.625em 0; }
+#bbong_i{float: right; width: 6.25em;height:8.75em; padding: 1.875em 6.25em;}
+
+
+#box1{overflow: hidden;}
+#dduck_p{float: right; width: 25em; height:8.75em; padding: 0.625em 0; }
+#dduck_i{float: right; width: 6.25em; height:8.75em; padding: 1.875em 6.25em;}
+
+
+
+#box1{overflow: hidden;}
+#info_p{float: right; width: 12.5em;  height:8.75em; padding: 0.625em 0; }
+#info_i{float: left; width: 22.5em; height:18.75em; padding: 1.875em 0.625em;}
+
+
+
+
+
+#box1{overflow: hidden;}
+#license_p{float: right; width: 25em; height:6.25em; padding: 0.625em 0; }
+#license_i{float: right; width: 6.25em; height:6.25em; padding: 1.875em 6.25em; }
+
+
+#box1{overflow: hidden;}
+#license2_p{float: right; width:25em; height:6.25em; padding: 0.625em 0; }
+#license2_i{float: right; width: 6.25em; height:6.25em; padding: 1.875em 6.25em;}
+
+#box1{overflow: hidden;}
+#info__p{float: right; width: 12.5em;  height:8.75em;padding: 0.625em 0; }
+#info__i{float: left; width: 12.5em;  height:8.75em; padding: 1.875em 0.625em;}
+
+
+#me1 > p::first-letter {color:blue;font-size: 2.25em;}
+#me2 > p::first-line {color:blue;font-size: 1.25em;}
